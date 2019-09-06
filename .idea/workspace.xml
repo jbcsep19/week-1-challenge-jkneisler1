@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb4d8f3-6517-41c2-9ca6-9f3df459af3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdventureGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventureGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AdventureGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="176" column="122" selection-start-line="176" selection-start-column="122" selection-end-line="176" selection-end-column="122" />
+            <state relative-caret-position="221">
+              <caret line="210" column="72" lean-forward="true" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -117,12 +115,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567712005985</updated>
       <workItem from="1567712007900" duration="5861000" />
-      <workItem from="1567773963719" duration="19300000" />
+      <workItem from="1567773963719" duration="20741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25161000" />
+    <option name="totallyTimeSpent" value="26602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="19" width="1816" height="1000" extended-state="0" />
@@ -165,8 +163,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/AdventureGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="176" column="122" selection-start-line="176" selection-start-column="122" selection-end-line="176" selection-end-column="122" />
+        <state relative-caret-position="221">
+          <caret line="210" column="72" lean-forward="true" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
         </state>
       </provider>
     </entry>

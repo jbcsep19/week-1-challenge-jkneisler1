@@ -180,99 +180,40 @@ public class AdventureGame {
             System.out.println();
 
             if (choice.equals("GROUP1")) {           // Level 3.1 prolog contains choices for third level.
-                String prolog_lev_3_1 = "Enter (level_3_1_1) or (level_3_1_2)";
+                String prolog_lev_3_1 = "You have two choices for this group, Borneo or Java.\r\nFor choice one enter (Borneo), choice two (Java).";
                 System.out.println(prolog_lev_3_1);
                 choice = keyboard.nextLine().toUpperCase();
                 System.out.println();
 
-                if (choice.equals("level_3_1_1")) {         // Level 3.1.1 prolog contains choices for fourth level.
-                    String prolog_lev_3_1_1 = "Enter (level_3_1_1_1) or (level_3_1_1_2)";
-                    System.out.println(prolog_lev_3_1_1);
-                    choice = keyboard.nextLine().toUpperCase();
-                    System.out.println();
-
-                    if (choice.equals("level_3_1_1_1")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else if (choice.equals("level_3_1_1_2")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else {
-                        System.out.println("Error: made a bad entry, please restart the game.");
-                    }
-                } else if (choice.equals("level_3_1_2")) {    // Level 3.1.2 prolog contains choices for fourth level.
-                    String prolog_lev_3_1_2 = "   For choice one enter (ONE), choice two (Java).";
-                    System.out.println(prolog_lev_3_1_2);
-                    choice = keyboard.nextLine().toUpperCase();
-                    System.out.println();
-
-                    if (choice.equals("level_3_1_2_1")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else if (choice.equals("JAVA")) {
-                        epilog_success = "When you arrived, it was like entering paradise.  Everything worked well, everyone was happy.\r\nYou will always find happiness working on Java.\r\n" + epilog_success;
-                        System.out.println(epilog_success);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else {
-                        System.out.println("Error: made a bad entry, please restart the game.");
-                    }
+                if (choice.equals("BORNEO")) {         // Level 3.1.1 prolog contains choices for fourth level.
+                    epilog_failure = "You arrived in Borneo, you travel around for months using up all your resources.\r\nYou arrive back home penniless." + epilog_failure;
+                    System.out.println(epilog_failure);
+                    System.out.print("End of game.  Please try again.");
+                }
+                else if (choice.equals("JAVA")) {    // Level 3.1.2 prolog contains choices for fourth level.
+                    epilog_success = "When you arrived, it was like entering paradise.  Everything worked well, everyone was happy.\r\nYou will always find happiness working on Java.\r\n" + epilog_success;
+                    System.out.println(epilog_success);
+                    System.out.print("End of game.  Please try again.");
                 }
                 else {
                     System.out.println("Error: made a bad entry, please restart the game.");
                 }
             }
             else if (choice.equals("GROUP2")) {      // Level 3.2 prolog contains choices for third level.
-                String prolog_lev_3_2 = "Enter (level_3_2_1) or (level_3_2_2)";
+                String prolog_lev_3_2 = "You have two choices for this group, Sumatra or Lombok.\r\nFor choice one enter (Sumatra), choice two (Lombok).";
                 System.out.println(prolog_lev_3_2);
                 choice = keyboard.nextLine();
                 System.out.println();
 
-                if (choice.equals("level_3_2_1")) {         // Level 3.2.1 prolog contains choices for fourth level.
-                    String prolog_lev_3_2_1 = "Enter (level_3_2_1_1) or (level_3_2_1_2)";
-                    System.out.println(prolog_lev_3_2_1);
-                    choice = keyboard.nextLine().toUpperCase();
-                    System.out.println();
-
-                    if (choice.equals("level_3_2_1_1")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else if (choice.equals("level_3_2_1_2")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else {
-                        System.out.println("Error: made a bad entry, please restart the game.");
-                    }
+                if (choice.equals("SUMATRA")) {         // Level 3.2.1 prolog contains choices for fourth level.
+                    epilog_failure = "You, arrive in Sumatra and you try their coffee and you forget about what you were searching for.  You never find any treasure.\r\n" + epilog_failure;
+                    System.out.println(epilog_failure);
+                    System.out.print("End of game.  Please try again.");
                 }
-                else if (choice.equals("level_3_2_2")) {    // Level 3.2.2 prolog contains choices for fourth level.
-                    String prolog_lev_3_2_2 = "Enter (level_3_2_2_1) or (level_3_2_2_2)";
-                    System.out.println(prolog_lev_3_2_2);
-                    choice = keyboard.nextLine().toUpperCase();
-                    System.out.println();
-
-                    if (choice.equals("level_3_2_2_1")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else if (choice.equals("level_3_2_2_2")) {
-                        epilog_failure = "You " + epilog_failure;
-                        System.out.println(epilog_failure);
-                        System.out.print("End of game.  Please try again.");
-                    }
-                    else {
-                        System.out.println("Error: made a bad entry, please restart the game.");
-                    }
+                else if (choice.equals("LOMBOK")) {    // Level 3.2.2 prolog contains choices for fourth level.
+                    epilog_failure = "You are in Lombok, and you are kidnapped and taken away for ransom.\r\nWhen your captors find out you have no money, they let you go.\r\nYou immediately decide to go back home.\r\n" + epilog_failure;
+                    System.out.println(epilog_failure);
+                    System.out.print("End of game.  Please try again.");
                 }
                 else {
                     System.out.println("Error: made a bad entry, please restart the game.");
